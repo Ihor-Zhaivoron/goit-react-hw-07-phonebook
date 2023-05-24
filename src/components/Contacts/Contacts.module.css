@@ -1,0 +1,17 @@
+.item {
+  height: 24px;
+  padding: 3px;
+  display: flex;
+  justify-content: space-around;
+}
+.list {
+  padding: 0;
+  list-style: none;
+}
+.name {
+  display: inline-block;
+  width: 200px;
+}
+button {
+  margin: 0px 20px;
+}

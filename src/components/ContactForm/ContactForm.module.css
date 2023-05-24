@@ -1,0 +1,41 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 15px;
+  box-shadow: 2px 1px 14px 0px grey;
+  border: 1px solid grey;
+  border-radius: 2px;
+}
+
+.field {
+  width: 200px;
+  height: 25px;
+}
+
+.form button {
+  width: 104px;
+  height: 35px;
+  font-size: 16px;
+  color: white;
+  background-color: #2586e7;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.inputLabel {
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  color: #084684;
+}
+
+.errorMessage {
+  margin-top: 5px;
+  color: rgb(198, 37, 37);
+}
+
+[invalid='true'] {
+  border-color: red;
+}

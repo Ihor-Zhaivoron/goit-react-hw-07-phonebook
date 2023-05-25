@@ -6,6 +6,7 @@ export const PhoneBook = () => {
     <div className="container">
       <h1 className={css.title}>Phonebook</h1>
       <ContactForm />
+      {/* <h1 className={css.title}>Phone book</h1> */}
     </div>
   );
 };
